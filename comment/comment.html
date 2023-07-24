@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link href="./index.css" rel="stylesheet" type="text/css" />
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="comment.css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="index.js"></script>
+        <script src="comment.js"></script>
+        <title>The Comments Section</title>
+
+<body>
+    <header>
+        <nav>
+            <div class="topnav">
+                <a class="active" href="home">Home</a>
+                <a href="../about/about.html">About</a>
+                <a href="../contact/contactPage.html">Contact</a>
+                <a href="../SaveforLater/Saveforlater.html">Save for Later</a>
+                <a href="../comment/comment.html">Comments</a>
+            </div>
+        </nav>
+    </header>
+<h2>Comment Section</h2>
+<form id="myForm">
+Full name: <input id="userName" type="text" name="fname">
+<br><br>
+Email : <input id="userEmail" type="text" name="email">
+<br><br>
+<textarea id ="userComment" rows="4" cols="50" name="comment"> </textarea>
+<br><br>
+<input type="button" onclick="myFunction()" value="Submit">
+</form>
+<h5>Submitted data :</h5>
+<p id="data"></p>
+</body>
+</html>
